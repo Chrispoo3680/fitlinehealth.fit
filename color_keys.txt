@@ -1,0 +1,16 @@
+Background:
+    Default: bg
+    Gray: bg.subtle
+    Purple: purple.subtle
+
+Text:
+    Heading: fg
+    Body: fg.muted
+
+Purple accent:
+    Default: purple.solid
+    Hover: purple.fg
+    Border: purple.muted
+
+Border:
+    Default: border.emphasized
