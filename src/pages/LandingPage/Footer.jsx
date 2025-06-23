@@ -34,39 +34,32 @@ const Footer = () => {
             </Heading>
             <VStack spacing={2} align="start">
               <Link
-                href="#home"
+                href="/fitlinehealth.fit#home"
                 color="gray.300"
                 _hover={{ color: "purple.400" }}
               >
                 Home
               </Link>
               <Link
-                href="#features"
+                href="/fitlinehealth.fit#features"
                 color="gray.300"
                 _hover={{ color: "purple.400" }}
               >
                 Features
               </Link>
               <Link
-                href="#about"
+                href="/fitlinehealth.fit#about"
                 color="gray.300"
                 _hover={{ color: "purple.400" }}
               >
                 About
               </Link>
               <Link
-                href="#privacy"
+                href="/fitlinehealth.fit#privacy"
                 color="gray.300"
                 _hover={{ color: "purple.400" }}
               >
                 Privacy
-              </Link>
-              <Link
-                href="#contact"
-                color="gray.300"
-                _hover={{ color: "purple.400" }}
-              >
-                Contact
               </Link>
             </VStack>
           </VStack>
@@ -77,21 +70,21 @@ const Footer = () => {
             </Heading>
             <VStack spacing={2} align="start">
               <Link
-                href="/privacy"
+                href="/fitlinehealth.fit/privacy"
                 color="gray.300"
                 _hover={{ color: "purple.400" }}
               >
                 Privacy Policy
               </Link>
               <Link
-                href="/terms"
+                href="/fitlinehealth.fit/terms"
                 color="gray.300"
                 _hover={{ color: "purple.400" }}
               >
                 Terms of Use
               </Link>
               <Link
-                href="/cookies"
+                href="/fitlinehealth.fit/cookies"
                 color="gray.300"
                 _hover={{ color: "purple.400" }}
               >

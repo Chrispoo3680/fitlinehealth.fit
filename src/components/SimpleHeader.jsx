@@ -20,7 +20,7 @@ function SimpleHeader() {
       <Box maxW="container.xl" mx="auto" px={8} py={4}>
         <Flex align="center" justify="space-between">
           <Flex align="center">
-            <Link href="/" click>
+            <Link href="/fitlinehealth.fit/" click>
               <Image
                 height="50px"
                 src={colorMode === "light" ? logo : invertedLogo}

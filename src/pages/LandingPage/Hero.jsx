@@ -37,35 +37,6 @@ function Hero() {
             Analyze your fitness data, plan your workouts, and stay on track –
             all in one place.
           </Text>
-
-          <VStack spacing={4} align="center">
-            <HStack spacing={4} flexDir={{ base: "column", sm: "row" }}>
-              <Link href="/register" click>
-                <Button
-                  fontSize="xl"
-                  size="2xl"
-                  bg="purple.solid"
-                  _hover={{ bg: "purple.fg" }}
-                  px={8}
-                  py={4}
-                >
-                  Get Started
-                </Button>
-              </Link>
-              <Button
-                fontSize="xl"
-                size="2xl"
-                variant="outline"
-                borderColor="purple.solid"
-                color="purple.solid"
-                _hover={{ bg: "purple.subtle" }}
-                px={8}
-                py={4}
-              >
-                Connect Garmin
-              </Button>
-            </HStack>
-          </VStack>
         </Box>
       </Box>
     </Box>

@@ -24,21 +24,24 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/privacy" element={<PrivacyPolicy />} />
-        <Route path="/terms" element={<TermsOfUse />} />
-        <Route path="/cookies" element={<CookiePolicy />} />
+        <Route path="/fitlinehealth.fit/" element={<LandingPage />} />
+        <Route path="/fitlinehealth.fit/privacy" element={<PrivacyPolicy />} />
+        <Route path="/fitlinehealth.fit/terms" element={<TermsOfUse />} />
+        <Route path="/fitlinehealth.fit/cookies" element={<CookiePolicy />} />
         <Route
-          path="/dashboard"
+          path="/fitlinehealth.fit/dashboard"
           element={
             <ProtectedRoute>
               <Dashboard />
             </ProtectedRoute>
           }
         />
-        <Route path="/login" element={<Login />} />
-        <Route path="/logout" element={<Logout />} />
-        <Route path="/register" element={<RegisterAndLogout />} />
+        <Route path="/fitlinehealth.fit/login" element={<Login />} />
+        <Route path="/fitlinehealth.fit/logout" element={<Logout />} />
+        <Route
+          path="/fitlinehealth.fit/register"
+          element={<RegisterAndLogout />}
+        />
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </HashRouter>

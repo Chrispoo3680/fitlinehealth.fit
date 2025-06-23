@@ -5,12 +5,7 @@ const Privacy = () => {
     <Box as="section" id="privacy" py={20} bg="bg">
       <Box maxW="container.xl" mx="auto" px={6}>
         <Box maxW="4xl" mx="auto" textAlign="center">
-          <Heading
-            as="h2"
-            size={{ base: "xl", lg: "2xl" }}
-            color="gray.900"
-            mb={8}
-          >
+          <Heading as="h2" size={{ base: "xl", lg: "2xl" }} color="fg" mb={8}>
             Privacy & Security
           </Heading>
           <Box

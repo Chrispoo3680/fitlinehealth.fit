@@ -18,21 +18,21 @@ function SimpleFooter() {
           </Flex>
           <Flex gap="4" as="nav" align="center" position="relative">
             <Link
-              href="/privacy"
+              href="/fitlinehealth.fit/privacy"
               color="gray.300"
               _hover={{ color: "purple.400" }}
             >
               Privacy Policy
             </Link>
             <Link
-              href="/terms"
+              href="/fitlinehealth.fit/terms"
               color="gray.300"
               _hover={{ color: "purple.400" }}
             >
               Terms of Service
             </Link>
             <Link
-              href="/cookies"
+              href="/fitlinehealth.fit/cookies"
               color="gray.300"
               _hover={{ color: "purple.400" }}
             >

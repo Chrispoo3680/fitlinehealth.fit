@@ -43,7 +43,7 @@ const Header = () => {
       >
         <Flex align="center" justify="space-between">
           <Flex align="center">
-            <Link href="/" click>
+            <Link href="/fitlinehealth.fit" click>
               <Image
                 height="50px"
                 src={colorMode === "light" ? logo : invertedLogo}
@@ -66,55 +66,36 @@ const Header = () => {
                   }}
                 >
                   <Link
-                    href="#home"
+                    href="/fitlinehealth.fit#home"
                     color="gray.fg"
                     _hover={{ color: "purple.focusRing" }}
                   >
                     Home
                   </Link>
                   <Link
-                    href="#features"
+                    href="/fitlinehealth.fit#features"
                     color="gray.fg"
                     _hover={{ color: "purple.focusRing" }}
                   >
                     Features
                   </Link>
                   <Link
-                    href="#about"
+                    href="/fitlinehealth.fit#about"
                     color="gray.fg"
                     _hover={{ color: "purple.focusRing" }}
                   >
                     About
                   </Link>
                   <Link
-                    href="#privacy"
+                    href="/fitlinehealth.fit#privacy"
                     color="gray.fg"
                     _hover={{ color: "purple.focusRing" }}
                   >
                     Privacy
                   </Link>
-                  <Link
-                    href="#contact"
-                    color="gray.fg"
-                    _hover={{ color: "purple.focusRing" }}
-                  >
-                    Contact
-                  </Link>
                   <Center>
                     <ColorModeButton />
                   </Center>
-                  <Link href="/login">
-                    <Button
-                      fontSize="sm"
-                      size="sm"
-                      bg="purple.solid"
-                      _hover={{ bg: "purple.fg" }}
-                      px={4}
-                      py={2}
-                    >
-                      Log In
-                    </Button>
-                  </Link>
                 </motion.div>
               )}
             </AnimatePresence>

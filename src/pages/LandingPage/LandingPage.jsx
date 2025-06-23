@@ -14,7 +14,6 @@ function LandingPage() {
       <Features />
       <About />
       <Privacy />
-      <Contact />
       <Footer />
     </div>
   );
