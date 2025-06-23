@@ -28,7 +28,7 @@ function RegisterAndLogout() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/fitlinehealth.fit/" element={<LandingPage />} />
         <Route path="/fitlinehealth.fit/privacy" element={<PrivacyPolicy />} />
@@ -50,7 +50,7 @@ function App() {
         />
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

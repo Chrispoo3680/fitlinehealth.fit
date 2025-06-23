@@ -52,62 +52,9 @@ const Header = () => {
           </Flex>
 
           <Flex gap="4" as="nav" align="center" position="relative">
-            <AnimatePresence>
-              {isOpen && (
-                <motion.div
-                  initial={{ x: 50, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  exit={{ x: 50, opacity: 0 }}
-                  transition={{ duration: 0.2, ease: "easeInOut" }}
-                  style={{
-                    transformOrigin: "center right", // expand leftward from icon
-                    display: "flex",
-                    gap: "1rem",
-                  }}
-                >
-                  <Link
-                    href="/fitlinehealth.fit#home"
-                    color="gray.fg"
-                    _hover={{ color: "purple.focusRing" }}
-                  >
-                    Home
-                  </Link>
-                  <Link
-                    href="/fitlinehealth.fit#features"
-                    color="gray.fg"
-                    _hover={{ color: "purple.focusRing" }}
-                  >
-                    Features
-                  </Link>
-                  <Link
-                    href="/fitlinehealth.fit#about"
-                    color="gray.fg"
-                    _hover={{ color: "purple.focusRing" }}
-                  >
-                    About
-                  </Link>
-                  <Link
-                    href="/fitlinehealth.fit#privacy"
-                    color="gray.fg"
-                    _hover={{ color: "purple.focusRing" }}
-                  >
-                    Privacy
-                  </Link>
-                  <Center>
-                    <ColorModeButton />
-                  </Center>
-                </motion.div>
-              )}
-            </AnimatePresence>
-
-            <IconButton
-              aria-label="Open menu"
-              variant="ghost"
-              size="xl"
-              onClick={() => setIsOpen((open) => !open)}
-            >
-              <FiMenu />
-            </IconButton>
+            <Center>
+              <ColorModeButton />
+            </Center>
           </Flex>
         </Flex>
       </Box>

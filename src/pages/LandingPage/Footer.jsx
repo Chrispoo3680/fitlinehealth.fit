@@ -30,61 +30,25 @@ const Footer = () => {
 
           <VStack align="start" spacing={4}>
             <Heading as="h4" size="md" mb={4}>
-              Navigation
-            </Heading>
-            <VStack spacing={2} align="start">
-              <Link
-                href="/fitlinehealth.fit#home"
-                color="gray.300"
-                _hover={{ color: "purple.400" }}
-              >
-                Home
-              </Link>
-              <Link
-                href="/fitlinehealth.fit#features"
-                color="gray.300"
-                _hover={{ color: "purple.400" }}
-              >
-                Features
-              </Link>
-              <Link
-                href="/fitlinehealth.fit#about"
-                color="gray.300"
-                _hover={{ color: "purple.400" }}
-              >
-                About
-              </Link>
-              <Link
-                href="/fitlinehealth.fit#privacy"
-                color="gray.300"
-                _hover={{ color: "purple.400" }}
-              >
-                Privacy
-              </Link>
-            </VStack>
-          </VStack>
-
-          <VStack align="start" spacing={4}>
-            <Heading as="h4" size="md" mb={4}>
               Legal
             </Heading>
             <VStack spacing={2} align="start">
               <Link
-                href="/fitlinehealth.fit/privacy"
+                href="#privacy"
                 color="gray.300"
                 _hover={{ color: "purple.400" }}
               >
                 Privacy Policy
               </Link>
               <Link
-                href="/fitlinehealth.fit/terms"
+                href="#terms"
                 color="gray.300"
                 _hover={{ color: "purple.400" }}
               >
                 Terms of Use
               </Link>
               <Link
-                href="/fitlinehealth.fit/cookies"
+                href="#cookies"
                 color="gray.300"
                 _hover={{ color: "purple.400" }}
               >

@@ -36,7 +36,7 @@ const Privacy = () => {
               <Text fontSize="lg" color="fg.muted" lineHeight="relaxed">
                 Read our{" "}
                 <Link
-                  href="/privacy"
+                  href="#privacy"
                   color="purple.focusRing"
                   _hover={{ color: "purple.fg" }}
                 >
